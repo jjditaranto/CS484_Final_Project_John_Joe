@@ -1,0 +1,19 @@
+Final Project- Data Results	John DiTaranto and Joseph Cornelius
+
+Normal Regression Problem Technique Data:
+	Hyperparameters that yielded best score for Training data(City MPG): {'algorithm': 'auto', 'metric': 'minkowski', 'n_neighbors': 5, 'weights': 'distance'}
+	Best Score yielded for Training data (City MPG): 0.7475850428820119
+	Best Score yielded for Testing data using best parameters (City MPG): 0.8761153443448314
+	
+	Hyperparameters that yielded best score for Training data(Highway MPG): {'algorithm': 'auto', 'metric': 'minkowski', 'n_neighbors': 5, 'weights': 'distance'}
+	Best Score yielded for Training data (Highway MPG): 0.7442289133515317
+	Best Score yielded for Testing data using best parameters (Highway MPG): 0.8137000919400046
+
+Feature Selection Technique Data:
+	Hyperparameters that yielded best score for Training data (Feature Selected City MPG): {'algorithm': 'auto', 'metric': 'minkowski', 'n_neighbors': 7, 'weights': 'distance'}
+	Best Score yielded for Training data (Feature Selected City MPG): 0.762816035552638
+	Best Score yielded for Testing data using best parameters (Feature Selected City MPG): 0.8578793346190288
+	
+	Hyperparameters that yielded best score for Training data (Feature Selected Highway MPG): {'algorithm': 'brute', 'metric': 'minkowski', 'n_neighbors': 7, 'weights': 'uniform'}
+	Best Score yielded for Training data (Feature Selected Highway MPG): 0.7621231193615284
+	Best Score yielded for Testing data using best parameters (Feature Selected Highway MPG): 0.8380127933782053
